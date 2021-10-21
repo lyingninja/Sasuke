@@ -1,5 +1,5 @@
 from telegram.ext import Updater
-updater = Updater(token='TOKEN', use_context=True)
+updater = Updater(token='', use_context=True)
 
 dispatcher = updater.dispatcher
 
