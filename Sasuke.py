@@ -3,7 +3,7 @@ from gtts import gTTS
 import logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=logging.INFO)
-updater = Updater(token='2097282130:AAGspMjwMnplLdTqCEhq39JH55NZvyNoNPk', use_context=True)
+updater = Updater(token='', use_context=True)
 dispatcher = updater.dispatcher
 def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please talk to me!I will copy all your text messages")
